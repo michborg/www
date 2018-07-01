@@ -197,7 +197,7 @@
           "_global": false,
           "_once": false,
           "_params": {
-            "text_all": "OFERTA",
+            "text_all": "DOSTĘPNE KOLORY OD:",
             "gallery__filtersTextStyle": "display-7",
             "gallery__filtersBtnStyle": "btn-secondary",
             "gallery": [
@@ -520,7 +520,7 @@
           "_global": false,
           "_once": false,
           "_params": {
-            "text_all": "OFERTA",
+            "text_all": "DOSTĘPNE KOLORY OD:",
             "gallery__filtersTextStyle": "display-7",
             "gallery__filtersBtnStyle": "btn-secondary",
             "gallery": [
@@ -869,7 +869,7 @@
           "_global": false,
           "_once": false,
           "_params": {
-            "text_all": "Oferta",
+            "text_all": "DOSTĘPNE KOLORY:",
             "gallery__filtersTextStyle": "display-7",
             "gallery__filtersBtnStyle": "btn-secondary",
             "gallery": [
