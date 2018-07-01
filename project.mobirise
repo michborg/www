@@ -1,0 +1,1143 @@
+{
+  "settings": {
+    "name": "My Site",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "mobirise4",
+      "title": "Mobirise 4",
+      "styling": {
+        "primaryColor": "#149dcc",
+        "secondaryColor": "#f40a0a",
+        "successColor": "#F7ED4A",
+        "infoColor": "#82786E",
+        "warningColor": "#879A9F",
+        "dangerColor": "#B1A374",
+        "mainFont": "Rubik",
+        "display1Font": "Rubik",
+        "display1Size": 4.25,
+        "display2Font": "Rubik",
+        "display2Size": 3,
+        "display5Font": "Rubik",
+        "display5Size": 1.5,
+        "display7Font": "Rubik",
+        "display7Size": 1,
+        "display4Font": "Rubik",
+        "display4Size": 1,
+        "isRoundedButtons": true,
+        "isAnimatedOnScroll": false,
+        "isScrollToTopButton": false
+      },
+      "additionalSetColors": [
+        "#ff0a00",
+        "#f40a0a"
+      ]
+    },
+    "path": "@PROJECT_PATH@",
+    "siteFonts": [],
+    "versionFirst": "4.7.6",
+    "uniqCompNum": 18,
+    "versionPublish": "4.7.9",
+    "screenshot": "screenshot.png"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".counter-container": {
+              "color": "#767676",
+              "ul": {
+                "margin-bottom": "0",
+                "li": {
+                  "margin-bottom": "1rem",
+                  "& when (@stylizedCounters)": {
+                    "list-style": "none",
+                    "&:before": {
+                      "position": "absolute",
+                      "left": "0px",
+                      "margin-top": "-10px",
+                      "padding-top": "3px",
+                      "content": "''",
+                      "display": "inline-block",
+                      "text-align": "center",
+                      "margin": "5px 10px",
+                      "line-height": "20px",
+                      "transition": "all .2s",
+                      "color": "contrast(@counterColor)",
+                      "background": "@counterColor",
+                      "width": "25px",
+                      "height": "25px",
+                      "border-radius": "50%",
+                      "& when (@countersType = 'circle')": {
+                        "background": "none",
+                        "border": "1px solid @counterColor",
+                        "color": "@counterColor"
+                      },
+                      "& when (@countersType = 'square')": {
+                        "border-radius": "0"
+                      },
+                      "& when (@mark)": {
+                        "content": "'✓'"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            ".mbr-text UL": {
+              "color": "#465052"
+            },
+            ".mbr-text P": {
+              "text-align": "center",
+              "color": "#f40a0a"
+            },
+            ".mbr-text DIV": {
+              "text-align": "center",
+              "color": "#ff3366"
+            }
+          },
+          "_name": "content12",
+          "_customHTML": "<section class=\"mbr-section article content12\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Góra\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Dół\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Numeracja ozdobna\" name=\"stylizedCounters\" checked>\n        <input type=\"color\" title=\"Kolor numeracji\" name=\"counterColor\" value=\"#149dcc\" condition=\"stylizedCounters\">\n        <input type=\"checkbox\" title=\"Numeracja ozdobna\" name=\"stylizedCounters\" checked>\n        <input type=\"checkbox\" title=\"Znacznik\" name=\"mark\" checked condition=\"stylizedCounters\">\n        <select title=\"Kształt\" name=\"countersType\" condition=\"stylizedCounters\">\n            <option value=\"default\" selected>Koło</option>\n            <option value=\"circle\">Okrąg</option>\n            <option value=\"square\">Kwadrat</option>\n        </select>   \n        <input type=\"color\" title=\"Kolor ta\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text counter-container col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\" data-multiline mbr-article>\n                <div><span style=\"color: rgb(70, 80, 82); font-size: 1rem;\"><b>Sprawdź co dla Ciebie przygotowaliśmy! Zapoznaj się z ofertą dostępnych kolorów!</b></span></div><div><span style=\"color: rgb(70, 80, 82); font-size: 1rem;\">&nbsp;</span><br></div><ul>\n                    <li><b style=\"font-size: 1rem;\">COLORIMO</b><span style=\"font-size: 1rem;\"> - to szkło lakierowane farbami ekologicznymi. Szeroki wachlarz kolorystyczny odpowiada aktualnym trendom wzorniczym i pozwala na dowolną aranżacji mebli i wnętrz. Najczęściej wykorzystywane jako fronty szafek i witryn, blaty szklane, a także w drzwiach szaf przesuwanych. Znakomicie sprawdza się również jako okładzina ścienna. </span><b style=\"font-size: 1rem;\">WERSJA</b><span style=\"font-size: 1rem;\"> - </span><i style=\"font-size: 1rem;\">SOFT</i><span style=\"font-size: 1rem;\"> - szkło ornamentowe, z fakturą / </span><i style=\"font-size: 1rem;\">SATI</i><span style=\"font-size: 1rem;\"> - szkło satynowe&nbsp;</span><br></li>\n                    <li><b>LACOBEL&nbsp;</b>- to rodzaj szkła zaliczanego do grupy szkieł float. Szkło jest pokryte z jednej strony wysokiej jakości lakierem. Kolekcja szkła lakierowanego występuje w bogatej gamie kolorystycznej.</li>\n                    <li><b>MATELAC</b> - jest szkłem lakierowanym w ten sam sposób co Lacobel. Podstawową różnicą tych dwóch szkieł lakierowanych jest to, że jedna strona Matelacu jest matowa. Dodatkowo w tej grupie występują 3 lustra satynowe.</li></ul><p>(realizujemy również projekty z dowolnie wybraną grafiką przez klienta)</p><p><b>ZAPYTAJ TAKŻE O INNE KOLORY&nbsp;</b></p><ul>\n                </ul>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "qWymuKYcT7",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content12-d"
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-slider .carousel-control": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-slider .carousel-control-prev": {
+              "left": "0",
+              "margin-left": "2.5rem"
+            },
+            ".mbr-slider .carousel-control-next": {
+              "right": "0",
+              "margin-right": "2.5rem"
+            },
+            ".mbr-slider .modal-body .close": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-gallery-item > div::before": {
+              "content": "''",
+              "position": "absolute",
+              "left": "0",
+              "top": "0",
+              "width": "100%",
+              "height": "100%",
+              "background": "@overlayColor",
+              "& when (@gradOverlay)": {
+                "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+              },
+              "opacity": "0",
+              "-webkit-transition": "0.2s opacity ease-in-out",
+              "transition": "0.2s opacity ease-in-out"
+            },
+            ".mbr-gallery-item > div:hover": {
+              ".mbr-gallery-title::before": {
+                "background": "transparent !important"
+              },
+              "&:before": {
+                "opacity": "@overlayOpacity !important"
+              }
+            },
+            ".mbr-gallery-title": {
+              "font-size": ".9em",
+              "position": "absolute",
+              "display": "block",
+              "width": "100%",
+              "bottom": "0",
+              "padding": "1rem",
+              "color": "#fff",
+              "z-index": "2",
+              "&:before": {
+                "content": "\" \"",
+                "width": "100%",
+                "height": "100%",
+                "top": "0",
+                "left": "0",
+                "z-index": "-1",
+                "position": "absolute",
+                "background": "@overlayColor !important",
+                "& when (@gradOverlay)": {
+                  "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+                },
+                "opacity": "@overlayOpacity",
+                "-webkit-transition": "0.2s background ease-in-out",
+                "transition": "0.2s background ease-in-out"
+              }
+            }
+          },
+          "_name": "gallery1",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Pełny ekran\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Góra\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"range\" title=\"Dół\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"color\" title=\"Kolor nakładki\" name=\"overlayColor\" value=\"#ff0a00\">\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Kolor nakładki 2\" name=\"overlayColor2\" value=\"#cc2952\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Prześwit\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" inline>\n        <input type=\"color\" title=\"Kolor ta\" name=\"bgColor\" value=\"#ffffff\">\n\n        <input type=\"gallery\" title=\"Galeria\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"1\" mbr-gallery-show-text mbr-gallery-show-filter></div>\n    </div>\n\n</section>",
+          "_cid": "qWy3pbH9k9",
+          "_protectedParams": [
+            "text_all",
+            "gallery__filtersTextStyle",
+            "gallery__filtersBtnStyle",
+            "gallery"
+          ],
+          "_global": false,
+          "_once": false,
+          "_params": {
+            "text_all": "OFERTA",
+            "gallery__filtersTextStyle": "display-7",
+            "gallery__filtersBtnStyle": "btn-secondary",
+            "gallery": [
+              {
+                "tags": "Colorimo",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/col-1013-perlowy-4-460x296.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/col-1013-perlowy-4-460x296-460x296.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "PERŁOWY 1013",
+                "active": false
+              },
+              {
+                "tags": "Colorimo",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/col-9003-extrabialy-4-460x296.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/col-9003-extrabialy-4-460x296-460x296.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "EXTRA BIAŁY 9003",
+                "active": false
+              },
+              {
+                "tags": "Colorimo",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/col-3004-czeresniowy-4-460x296.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/col-3004-czeresniowy-4-460x296-460x296.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "CZEREŚNIOWY 3004",
+                "active": false
+              },
+              {
+                "tags": "Colorimo",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/col-7035-kredowy-6-460x296.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/col-7035-kredowy-6-460x296-460x296.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "KREDOWY 7035",
+                "active": false
+              },
+              {
+                "tags": "Colorimo",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/col-7m45-popielaty-4-460x296.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/col-7m45-popielaty-4-460x296-460x296.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "POPIELATY 7M45",
+                "active": false
+              },
+              {
+                "tags": "Colorimo",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/col-7015-stalowy-6-460x296.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/col-7015-stalowy-6-460x296-460x296.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "STALOWY 7015",
+                "active": false
+              },
+              {
+                "tags": "Colorimo",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/col-7012-grafitowy-6-460x296.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/col-7012-grafitowy-6-460x296-460x296.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "GRAFITOWY 7012",
+                "active": false
+              },
+              {
+                "tags": "Colorimo",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/col-9005-czarny-4-460x296.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/col-9005-czarny-4-460x296-460x296.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "CZARNY 9005",
+                "active": false
+              },
+              {
+                "tags": "Colorimo",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/col-9m03-bialy-6-460x296.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/col-9m03-bialy-6-460x296-460x296.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "BIAŁY 9M03",
+                "active": false
+              },
+              {
+                "tags": "Colorimo",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/col-1015-waniliowy-4-460x296.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/col-1015-waniliowy-4-460x296-460x296.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "WANILIOWY 1015",
+                "active": false
+              },
+              {
+                "tags": "Colorimo",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/col-3m02-truskawkowy-6-460x296.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/col-3m02-truskawkowy-6-460x296-460x296.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "TRUSKAWKA 3M02",
+                "active": false
+              },
+              {
+                "tags": "Colorimo",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/col-1m04-miodowy-6-460x296.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/col-1m04-miodowy-6-460x296-460x296.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "MIODOWY 1M04",
+                "active": false
+              },
+              {
+                "tags": "Colorimo",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/col-sati-szampanski2-4-460x296.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/col-sati-szampanski2-4-460x296-460x296.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "SZAMPAŃSKI 7M44 (SATI)",
+                "active": false
+              },
+              {
+                "tags": "Colorimo",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/col-sati-blekitny-ok-5-460x296.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/col-sati-blekitny-ok-5-460x296-460x296.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "BŁĘKITNY 5S24 (SATI)",
+                "active": false
+              },
+              {
+                "tags": "Colorimo",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/col-sati-golebi-ok-5-460x296.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/col-sati-golebi-ok-5-460x296-460x296.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "GOŁĘBI 7042 (SATI)",
+                "active": false
+              },
+              {
+                "tags": "Colorimo",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/col-sati-pudrowy-ok-5-460x296.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/col-sati-pudrowy-ok-5-460x296-460x296.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "PUDROWY RÓŻ 3M15 (SATI)",
+                "active": false
+              },
+              {
+                "tags": "Colorimo",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/soft-9003-400x326.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/soft-9003-400x326-400x326.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "BIAŁY 9M03 (SOFT)",
+                "active": false
+              },
+              {
+                "tags": "Colorimo",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/soft-9005-684x558.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/soft-9005-684x558-684x558.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "CZARNY 9005 (SOFT)",
+                "active": true
+              }
+            ]
+          },
+          "_anchor": "gallery1-4"
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-slider .carousel-control": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-slider .carousel-control-prev": {
+              "left": "0",
+              "margin-left": "2.5rem"
+            },
+            ".mbr-slider .carousel-control-next": {
+              "right": "0",
+              "margin-right": "2.5rem"
+            },
+            ".mbr-slider .modal-body .close": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-gallery-item > div::before": {
+              "content": "''",
+              "position": "absolute",
+              "left": "0",
+              "top": "0",
+              "width": "100%",
+              "height": "100%",
+              "background": "@overlayColor",
+              "& when (@gradOverlay)": {
+                "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+              },
+              "opacity": "0",
+              "-webkit-transition": "0.2s opacity ease-in-out",
+              "transition": "0.2s opacity ease-in-out"
+            },
+            ".mbr-gallery-item > div:hover": {
+              ".mbr-gallery-title::before": {
+                "background": "transparent !important"
+              },
+              "&:before": {
+                "opacity": "@overlayOpacity !important"
+              }
+            },
+            ".mbr-gallery-title": {
+              "font-size": ".9em",
+              "position": "absolute",
+              "display": "block",
+              "width": "100%",
+              "bottom": "0",
+              "padding": "1rem",
+              "color": "#fff",
+              "z-index": "2",
+              "&:before": {
+                "content": "\" \"",
+                "width": "100%",
+                "height": "100%",
+                "top": "0",
+                "left": "0",
+                "z-index": "-1",
+                "position": "absolute",
+                "background": "@overlayColor !important",
+                "& when (@gradOverlay)": {
+                  "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+                },
+                "opacity": "@overlayOpacity",
+                "-webkit-transition": "0.2s background ease-in-out",
+                "transition": "0.2s background ease-in-out"
+              }
+            }
+          },
+          "_name": "gallery1",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Pełny ekran\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Góra\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"range\" title=\"Dół\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"color\" title=\"Kolor nakładki\" name=\"overlayColor\" value=\"#ff0a00\">\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Kolor nakładki 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Prześwit\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" inline>\n        <input type=\"color\" title=\"Kolor ta\" name=\"bgColor\" value=\"#ffffff\">\n\n        <input type=\"gallery\" title=\"Galeria\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"1\" mbr-gallery-show-text mbr-gallery-show-filter></div>\n    </div>\n\n</section>",
+          "_cid": "qWyB5i6XS9",
+          "_protectedParams": [
+            "text_all",
+            "gallery__filtersTextStyle",
+            "gallery__filtersBtnStyle",
+            "gallery"
+          ],
+          "_global": false,
+          "_once": false,
+          "_params": {
+            "text_all": "OFERTA",
+            "gallery__filtersTextStyle": "display-7",
+            "gallery__filtersBtnStyle": "btn-secondary",
+            "gallery": [
+              {
+                "tags": "Lacobel",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/lacobel-white-soft-9010-450x544.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/lacobel-white-soft-9010-450x544-450x544.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "WHITE SOFT 9010",
+                "active": false
+              },
+              {
+                "tags": "Lacobel",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/lacobel-black-classic-9005-450x544.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/lacobel-black-classic-9005-450x544-450x544.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "BLACK CLASSIC 9005",
+                "active": false
+              },
+              {
+                "tags": "Lacobel",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/lacobel-red-lumious-1586-450x544.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/lacobel-red-lumious-1586-450x544-450x544.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "RED LUMINOUS 1586",
+                "active": false
+              },
+              {
+                "tags": "Lacobel",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/lacobel-white-pure-9003-450x544.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/lacobel-white-pure-9003-450x544-450x544.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "WHITE PURE 9003",
+                "active": false
+              },
+              {
+                "tags": "Lacobel",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/lacobel-white-pearl-1013-450x544.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/lacobel-white-pearl-1013-450x544-450x544.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "WHITE PEARL &nbsp;1013",
+                "active": false
+              },
+              {
+                "tags": "Lacobel",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/lacobel-beige-light-1015-450x544.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/lacobel-beige-light-1015-450x544-450x544.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "BEIGE LIGHT &nbsp;1015",
+                "active": false
+              },
+              {
+                "tags": "Lacobel",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/lacobel-grey-classic-7035-450x544.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/lacobel-grey-classic-7035-450x544-450x544.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "GREY CLASSIC &nbsp;7035 ",
+                "active": false
+              },
+              {
+                "tags": "Lacobel",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/lacobel-brown-light-1236-450x544.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/lacobel-brown-light-1236-450x544-450x544.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "BROWN LIGHT &nbsp;1236 ",
+                "active": false
+              },
+              {
+                "tags": "Lacobel",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/lacobel-brown-natural-7013-450x544.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/lacobel-brown-natural-7013-450x544-450x544.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "BROWN NATURAL 7013 ",
+                "active": false
+              },
+              {
+                "tags": "Lacobel",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/lacobel-anthracite-authentic-7016-450x544.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/lacobel-anthracite-authentic-7016-450x544-450x544.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "ANTHRACITE AUTHENTIC 7016 ",
+                "active": false
+              },
+              {
+                "tags": "Lacobel",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/lacobel-blue-shadow-7000-450x544.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/lacobel-blue-shadow-7000-450x544-450x544.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "BLUE SHADOW 7000 ",
+                "active": false
+              },
+              {
+                "tags": "Lacobel",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/lacobel-green-soft-8615-450x544.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/lacobel-green-soft-8615-450x544-450x544.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "GREEN SOFT 8615",
+                "active": false
+              },
+              {
+                "tags": "Lacobel",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/lacobel-green-sage-8715-450x544.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/lacobel-green-sage-8715-450x544-450x544.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "GREEN SAGE 8715<br>",
+                "active": false
+              },
+              {
+                "tags": "Lacobel",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/lacobel-red-terracotta-8815-450x544.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/lacobel-red-terracotta-8815-450x544-450x544.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "RED TERRACOTTA 8815<br>",
+                "active": false
+              },
+              {
+                "tags": "Lacobel",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/lacobel-grey-metal-9006-450x544.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/lacobel-grey-metal-9006-450x544-450x544.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "GREY METAL 9006<br>",
+                "active": false
+              },
+              {
+                "tags": "Lacobel",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/lacobel-taupe-metal-627-450x544.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/lacobel-taupe-metal-627-450x544-450x544.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "TAUPE METAL 0627<br>",
+                "active": false
+              },
+              {
+                "tags": "Lacobel",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/lacobel-aluminium-rich-9007-450x544.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/lacobel-aluminium-rich-9007-450x544-450x544.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "ALLUMINIUM RICH 9007<br>",
+                "active": false
+              },
+              {
+                "tags": "Lacobel",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/lacobel-copper-metal-9115-450x544.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/lacobel-copper-metal-9115-450x544-450x544.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "COOPER METAL 9115<br>",
+                "active": false
+              },
+              {
+                "tags": "Lacobel",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/lacobel-black-starlight-337-450x544.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/lacobel-black-starlight-337-450x544-450x544.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "BLACK STARLIGHT 0337<br>",
+                "active": false
+              },
+              {
+                "tags": "Lacobel",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/lacobel-brown-starlight-9015-450x544.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/lacobel-brown-starlight-9015-450x544-450x544.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "BROWN STARLIGHT 9015<br>",
+                "active": true
+              }
+            ]
+          },
+          "_anchor": "gallery1-g"
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-slider .carousel-control": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-slider .carousel-control-prev": {
+              "left": "0",
+              "margin-left": "2.5rem"
+            },
+            ".mbr-slider .carousel-control-next": {
+              "right": "0",
+              "margin-right": "2.5rem"
+            },
+            ".mbr-slider .modal-body .close": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-gallery-item > div::before": {
+              "content": "''",
+              "position": "absolute",
+              "left": "0",
+              "top": "0",
+              "width": "100%",
+              "height": "100%",
+              "background": "@overlayColor",
+              "& when (@gradOverlay)": {
+                "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+              },
+              "opacity": "0",
+              "-webkit-transition": "0.2s opacity ease-in-out",
+              "transition": "0.2s opacity ease-in-out"
+            },
+            ".mbr-gallery-item > div:hover": {
+              ".mbr-gallery-title::before": {
+                "background": "transparent !important"
+              },
+              "&:before": {
+                "opacity": "@overlayOpacity !important"
+              }
+            },
+            ".mbr-gallery-title": {
+              "font-size": ".9em",
+              "position": "absolute",
+              "display": "block",
+              "width": "100%",
+              "bottom": "0",
+              "padding": "1rem",
+              "color": "#fff",
+              "z-index": "2",
+              "&:before": {
+                "content": "\" \"",
+                "width": "100%",
+                "height": "100%",
+                "top": "0",
+                "left": "0",
+                "z-index": "-1",
+                "position": "absolute",
+                "background": "@overlayColor !important",
+                "& when (@gradOverlay)": {
+                  "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+                },
+                "opacity": "@overlayOpacity",
+                "-webkit-transition": "0.2s background ease-in-out",
+                "transition": "0.2s background ease-in-out"
+              }
+            }
+          },
+          "_name": "gallery2",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Pełny ekran\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Góra\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"range\" title=\"Dół\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"color\" title=\"Kolor nakładki\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Kolor nakładki 2\" name=\"overlayColor2\" value=\"#f40a0a\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Prześwit\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" inline>\n        <input type=\"color\" title=\"Kolor ta\" name=\"bgColor\" value=\"#ffffff\">\n\n        <input type=\"gallery\" title=\"Galeria\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"2\" mbr-gallery-show-filter mbr-gallery-show-text></div>\n    </div>\n\n</section>",
+          "_cid": "qWyQKi8HCZ",
+          "_protectedParams": [
+            "text_all",
+            "gallery__filtersTextStyle",
+            "gallery__filtersBtnStyle",
+            "gallery"
+          ],
+          "_global": false,
+          "_once": false,
+          "_params": {
+            "text_all": "Oferta",
+            "gallery__filtersTextStyle": "display-7",
+            "gallery__filtersBtnStyle": "btn-secondary",
+            "gallery": [
+              {
+                "tags": "Matelac",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/422-img-440x440.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/422-img-440x440-440x440.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "WHITE SOFT 9010",
+                "active": false
+              },
+              {
+                "tags": "Matelac",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/408-img-440x440.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/408-img-440x440-440x440.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "BLACK CLASSIC 9005",
+                "active": false
+              },
+              {
+                "tags": "Matelac",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/18640-matelac-silver-clear-100x100.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/18640-matelac-silver-clear-100x100-100x100.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "SILVER CLEAR",
+                "active": false
+              },
+              {
+                "tags": "Matelac",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/422-img-440x440.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/422-img-440x440-440x440.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "WHITE PURE 9003",
+                "active": false
+              },
+              {
+                "tags": "Matelac",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/412-img-440x440.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/412-img-440x440-440x440.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "WHITE PEARL 1013",
+                "active": false
+              },
+              {
+                "tags": "Matelac",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/406-img-440x440.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/406-img-440x440-440x440.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "BEIGE WARM 1015",
+                "active": false
+              },
+              {
+                "tags": "Matelac",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/18692-matelac-grey-7035-100x100.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/18692-matelac-grey-7035-100x100-100x100.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "GREY CLASSIC 7035",
+                "active": false
+              },
+              {
+                "tags": "Matelac",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/409-img-440x440.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/409-img-440x440-440x440.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "BROWN LIGHT 1236",
+                "active": false
+              },
+              {
+                "tags": "Matelac",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/93-img-440x440.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/93-img-440x440-440x440.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "BROWN NATURAL 7013",
+                "active": false
+              },
+              {
+                "tags": "Matelac",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/405-img-440x440.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/405-img-440x440-440x440.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "ANTHRACITE AUTHENHIC 7016",
+                "active": false
+              },
+              {
+                "tags": "Matelac",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/316-img-440x440.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/316-img-440x440-440x440.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "BLUE SHADOW 7000",
+                "active": false
+              },
+              {
+                "tags": "Matelac",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/18691-matelac-green-soft-8615-100x100.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/18691-matelac-green-soft-8615-100x100-100x100.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "GREEN SOFT 8615 ",
+                "active": false
+              },
+              {
+                "tags": "Matelac",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/18642-matelac-green-8715-100x100.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/18642-matelac-green-8715-100x100-100x100.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "GREEN SAGE 8715 ",
+                "active": false
+              },
+              {
+                "tags": "Matelac",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/18693-matelac-red-8815-100x100.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/18693-matelac-red-8815-100x100-100x100.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "RED TERRACOTTA 8815 ",
+                "active": false
+              },
+              {
+                "tags": "Matelac",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/18686-matelac-grey-9006-100x100.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/18686-matelac-grey-9006-100x100-100x100.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "GREY METAL 9006 ",
+                "active": false
+              },
+              {
+                "tags": "Matelac",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/18645-matelac-taupe-metal-100x100.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/18645-matelac-taupe-metal-100x100-100x100.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "TAUPE METAL 0627",
+                "active": false
+              },
+              {
+                "tags": "Matelac",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/18627-matelac-silver-grey-100x100.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/18627-matelac-silver-grey-100x100-100x100.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "SILVER GREY",
+                "active": false
+              },
+              {
+                "tags": "Matelac",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/18651-matelac-silver-bronze-100x100.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/18651-matelac-silver-bronze-100x100-100x100.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "SILVER BRONZE",
+                "active": false
+              },
+              {
+                "tags": "Matelac",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/18648-matelac-silver-clearvision-100x100.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/18648-matelac-silver-clearvision-100x100-100x100.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "SILVER CLEARVISION",
+                "active": false
+              },
+              {
+                "tags": "Matelac",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/18643-matelac-brown-8915-2-100x100.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/18643-matelac-brown-8915-2-100x100-100x100.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "BROWN WALNUT 8915",
+                "active": true
+              }
+            ]
+          },
+          "_anchor": "gallery2-h"
+        }
+      ]
+    }
+  }
+}
