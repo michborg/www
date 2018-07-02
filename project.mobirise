@@ -35,7 +35,7 @@
     "path": "@PROJECT_PATH@",
     "siteFonts": [],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 19,
+    "uniqCompNum": 47,
     "versionPublish": "4.7.9",
     "screenshot": "screenshot.png"
   },
@@ -43,7 +43,7 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Home",
+        "title": "Paleta Kolorów",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
@@ -108,7 +108,7 @@
             }
           },
           "_name": "content12",
-          "_customHTML": "<section class=\"mbr-section article content12\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Góra\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Dół\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Numeracja ozdobna\" name=\"stylizedCounters\" checked>\n        <input type=\"color\" title=\"Kolor numeracji\" name=\"counterColor\" value=\"#149dcc\" condition=\"stylizedCounters\">\n        <input type=\"checkbox\" title=\"Numeracja ozdobna\" name=\"stylizedCounters\" checked>\n        <input type=\"checkbox\" title=\"Znacznik\" name=\"mark\" checked condition=\"stylizedCounters\">\n        <select title=\"Kształt\" name=\"countersType\" condition=\"stylizedCounters\">\n            <option value=\"default\" selected>Koło</option>\n            <option value=\"circle\">Okrąg</option>\n            <option value=\"square\">Kwadrat</option>\n        </select>   \n        <input type=\"color\" title=\"Kolor ta\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text counter-container col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\" data-multiline mbr-article>\n                <div><span style=\"color: rgb(70, 80, 82); font-size: 1rem;\"><b>Sprawdź co dla Ciebie przygotowaliśmy! Zapoznaj się z ofertą dostępnych kolorów!</b></span></div><div><span style=\"color: rgb(70, 80, 82); font-size: 1rem;\">&nbsp;</span><br></div><ul>\n                    <li><b style=\"font-size: 1rem;\">COLORIMO</b><span style=\"font-size: 1rem;\"> - to szkło lakierowane farbami ekologicznymi. Szeroki wachlarz kolorystyczny odpowiada aktualnym trendom wzorniczym i pozwala na dowolną aranżacji mebli i wnętrz. Znakomicie sprawdza się również jako okładzina ścienna.&nbsp;</span><b style=\"font-size: 1rem;\">WERSJA</b><span style=\"font-size: 1rem;\"> - </span><i style=\"font-size: 1rem;\">SOFT</i><span style=\"font-size: 1rem;\"> - szkło ornamentowe, z fakturą / </span><i style=\"font-size: 1rem;\">SATI</i><span style=\"font-size: 1rem;\"> - szkło satynowe&nbsp;</span></li>\n                    <li><b>LACOBEL&nbsp;</b>- to rodzaj szkła zaliczanego do grupy szkieł float. Szkło jest pokryte z jednej strony wysokiej jakości lakierem. Kolekcja szkła lakierowanego występuje w bogatej gamie kolorystycznej.</li>\n                    <li><b>MATELAC</b> - jest szkłem lakierowanym w ten sam sposób co Lacobel. Podstawową różnicą tych dwóch szkieł lakierowanych jest to, że jedna strona Matelacu jest matowa. Dodatkowo w tej grupie występują 3 lustra satynowe.</li></ul><p>(realizujemy również projekty z dowolnie wybraną grafiką przez klienta)</p><p><b>ZAPYTAJ TAKŻE O INNE KOLORY&nbsp;</b></p><ul>\n                </ul>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section article content12\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Góra\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Dół\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Numeracja ozdobna\" name=\"stylizedCounters\" checked>\n        <input type=\"color\" title=\"Kolor numeracji\" name=\"counterColor\" value=\"#149dcc\" condition=\"stylizedCounters\">\n        <input type=\"checkbox\" title=\"Numeracja ozdobna\" name=\"stylizedCounters\" checked>\n        <input type=\"checkbox\" title=\"Znacznik\" name=\"mark\" checked condition=\"stylizedCounters\">\n        <select title=\"Kształt\" name=\"countersType\" condition=\"stylizedCounters\">\n            <option value=\"default\" selected>Koło</option>\n            <option value=\"circle\">Okrąg</option>\n            <option value=\"square\">Kwadrat</option>\n        </select>   \n        <input type=\"color\" title=\"Kolor ta\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text counter-container col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\" data-multiline mbr-article>\n                <div><span style=\"color: rgb(70, 80, 82); font-size: 1rem;\"><b>Sprawdź co dla Ciebie przygotowaliśmy! Zapoznaj się z ofertą dostępnych kolorów!</b></span></div><div><span style=\"color: rgb(70, 80, 82); font-size: 1rem;\">&nbsp;</span><br></div><ul>\n                    <li><b style=\"font-size: 1rem;\">COLORIMO</b><span style=\"font-size: 1rem;\"> - to szkło lakierowane farbami ekologicznymi. Szeroki wachlarz kolorystyczny odpowiada aktualnym trendom wzorniczym i pozwala na dowolną aranżacji mebli i wnętrz. Znakomicie sprawdza się również jako okładzina ścienna.&nbsp;</span><b style=\"font-size: 1rem;\">WERSJA</b><span style=\"font-size: 1rem;\"> - </span><i style=\"font-size: 1rem;\">SOFT</i><span style=\"font-size: 1rem;\"> - szkło ornamentowe, z fakturą / </span><i style=\"font-size: 1rem;\">SATI</i><span style=\"font-size: 1rem;\"> - szkło satynowe&nbsp;</span></li>\n                    <li><b>LACOBEL&nbsp;</b>- to rodzaj szkła zaliczanego do grupy szkieł float. Szkło jest pokryte z jednej strony wysokiej jakości lakierem. Kolekcja szkła lakierowanego występuje w bogatej gamie kolorystycznej.</li>\n                    <li><b>MATELAC</b> - jest szkłem lakierowanym w ten sam sposób co Lacobel. Podstawową różnicą tych dwóch szkieł lakierowanych jest to, że jedna strona Matelacu jest matowa. Dodatkowo w tej grupie występują 3 lustra satynowe.</li></ul><p>(realizujemy również projekty z dowolnie wybraną grafiką przez klienta)</p><p><b style=\"font-size: 1rem;\">ZAPYTAJ TAKŻE O INNE KOLORY&nbsp;</b></p><ul>\n                </ul>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "qWymuKYcT7",
           "_protectedParams": [],
           "_global": false,
@@ -1136,6 +1136,266 @@
             ]
           },
           "_anchor": "gallery2-h"
+        }
+      ]
+    },
+    "page1.html": {
+      "settings": {
+        "meta_descr": "Web Site Creator Description",
+        "title": "Ostatnie realizacje",
+        "order": 1
+      },
+      "components": [
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#232323"
+            },
+            ".mbr-section-subtitle DIV": {
+              "color": "#232323"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Góra\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Dół\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Pokaż tytuł\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Pokaż podtytuł\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Pokaż przyciski\" name=\"showButtons\">\n        <input type=\"color\" title=\"Kolor ta\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-4\"><b>Sprawdź nasze ostatnie realizacje!</b></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-4\">Wiemy jak ważne jest przedstawienie produktu, który oferujemy, dlatego z pomocą naszych Klientów przedstawiamy kilka przykładowych realizacji już po dostarczeniu do domu. &nbsp;&nbsp;<div><br></div><div>Czy chciałbyś również zaprezentować efekt swojego zamówienia na naszej stronie?  Prosimy o przesłanie wiadomości ze zdjęciem na adres:&nbsp;<a href=\"mailto:biuro@oslonygrzejnikow.pl\">biuro@oslonygrzejnikow.pl</a><span style=\"font-size: 1rem;\"><a href=\"mailto:biuro@oslonygrzejnikow.pl\">&nbsp;</a></span></div><div><br></div><div>- Z góry dziękujemy za przesłane zdjęcia, zespół <b>Fragile Polska</b></div></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.com\">DOWIEDZ SIĘ WIĘCEJ</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.com\">DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "qWArgfiCGj",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content4-w"
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "[class^=\"socicon-\"]:before, [class*=\" socicon-\"]:before": {
+              "line-height": "44px"
+            },
+            ".btn-social": {
+              "border-color": "@iconsColor",
+              "&:hover": {
+                "background": "@iconsColor",
+                "& i.socicon": {
+                  "color": "contrast(@iconsColor) !important"
+                }
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".btn": {
+                "font-size": "20px !important"
+              }
+            }
+          },
+          "_name": "social-buttons1",
+          "_customHTML": "<section group=\"Social\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" plugins=\"SocialLikes\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input inline type=\"range\" title=\"Góra\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input inline type=\"range\" title=\"Dół\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Pokaż tytuł\" name=\"showTitle\" checked>\n        <input type=\"color\" title=\"Kolor ikony\" name=\"iconsColor\" value=\"#232323\">\n\n        <header>Strona będzie udostępniana</header>\n        <input type=\"checkbox\" title=\"Facebook\" name=\"facebook\" checked>\n        <input type=\"checkbox\" title=\"Twitter\" name=\"twitter\" checked>\n        <input type=\"checkbox\" title=\"Google+\" name=\"google\" checked>\n        <input type=\"checkbox\" title=\"Vkontakte\" name=\"vkontakte\">\n        <input type=\"checkbox\" title=\"Odnoklassniki\" name=\"odnoklassniki\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Obrazek\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Kolor ta\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Film\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Nakładka\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Kolor nakładki\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Przejrzystość\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-md-8 align-center\">\n                <h2 class=\"pb-3 mbr-section-title mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".btn-social, .mbr-section-title \">POLUB NAS W SOCIAL MEDIACH!</h2>\n                <div>\n                    <div class=\"mbr-social-likes\" data-counters=\"false\">\n                        <span mbr-if=\"facebook\" class=\"btn btn-social facebook mx-2\" title=\"Udostępnij łącze na Facebooku\">\n                            <i class=\"socicon socicon-facebook\"></i>\n                        </span>\n                        <span mbr-if=\"twitter\" class=\"btn btn-social twitter mx-2\" title=\"Udostępnij łącze na Twitterze\">\n                            <i class=\"socicon socicon-twitter\"></i>\n                        </span>\n                        <span mbr-if=\"google\" class=\"btn btn-social plusone mx-2\" title=\"Udostępnij łącze na Google+\">\n                            <i class=\"socicon socicon-googleplus\"></i>\n                        </span>\n                        <span mbr-if=\"vkontakte\" class=\"btn btn-social vkontakte mx-2\" title=\"Udostępnij łącze na VKontakte\">\n                            <i class=\"socicon socicon-vkontakte\"></i>\n                        </span>\n                        <span mbr-if=\"odnoklassniki\" class=\"btn btn-social odnoklassniki mx-2\" title=\"Udostępnij łącze na Odnoklassniki\">\n                            <i class=\"socicon socicon-odnoklassniki\"></i>\n                        </span>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "qWDPnxVMmJ",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "social-buttons1-17"
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-slider .carousel-control": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-slider .carousel-control-prev": {
+              "left": "0",
+              "margin-left": "2.5rem"
+            },
+            ".mbr-slider .carousel-control-next": {
+              "right": "0",
+              "margin-right": "2.5rem"
+            },
+            ".mbr-slider .modal-body .close": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-gallery-item > div::before": {
+              "content": "''",
+              "position": "absolute",
+              "left": "0",
+              "top": "0",
+              "width": "100%",
+              "height": "100%",
+              "background": "@overlayColor",
+              "& when (@gradOverlay)": {
+                "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+              },
+              "opacity": "0",
+              "-webkit-transition": "0.2s opacity ease-in-out",
+              "transition": "0.2s opacity ease-in-out"
+            },
+            ".mbr-gallery-item > div:hover": {
+              ".mbr-gallery-title::before": {
+                "background": "transparent !important"
+              },
+              "&:before": {
+                "opacity": "@overlayOpacity !important"
+              }
+            },
+            ".mbr-gallery-title": {
+              "font-size": ".9em",
+              "position": "absolute",
+              "display": "block",
+              "width": "100%",
+              "bottom": "0",
+              "padding": "1rem",
+              "color": "#fff",
+              "z-index": "2",
+              "&:before": {
+                "content": "\" \"",
+                "width": "100%",
+                "height": "100%",
+                "top": "0",
+                "left": "0",
+                "z-index": "-1",
+                "position": "absolute",
+                "background": "@overlayColor !important",
+                "& when (@gradOverlay)": {
+                  "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+                },
+                "opacity": "@overlayOpacity",
+                "-webkit-transition": "0.2s background ease-in-out",
+                "transition": "0.2s background ease-in-out"
+              }
+            }
+          },
+          "_name": "gallery2",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Pełny ekran\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Góra\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"range\" title=\"Dół\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"color\" title=\"Kolor nakładki\" name=\"overlayColor\" value=\"#f40a0a\">\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Kolor nakładki 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Prześwit\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" inline>\n        <input type=\"color\" title=\"Kolor ta\" name=\"bgColor\" value=\"#ffffff\">\n\n        <input type=\"gallery\" title=\"Galeria\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"1\" mbr-gallery-show-bullets mbr-gallery-show-filter></div>\n    </div>\n\n</section>",
+          "_cid": "qWDx7DOPC5",
+          "_protectedParams": [
+            "text_all",
+            "gallery__filtersTextStyle",
+            "gallery__filtersBtnStyle",
+            "gallery"
+          ],
+          "_global": false,
+          "_once": false,
+          "_params": {
+            "text_all": "Wszystkie",
+            "gallery__filtersTextStyle": "display-7",
+            "gallery__filtersBtnStyle": "btn-secondary",
+            "gallery": [
+              {
+                "tags": "Colorimo",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/727834601-1-1000x700-oslona-grzejnika-maskownica-na-grzejnik-szklo-colorimo-oraz-lacobel-katowice-rev001-1-644x361.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/727834601-1-1000x700-oslona-grzejnika-maskownica-na-grzejnik-szklo-colorimo-oraz-lacobel-katowice-rev001-1-644x361-481x361.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Tutaj wstaw opis",
+                "active": false
+              },
+              {
+                "tags": "Colorimo",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/727834601-7-1000x700-oslona-grzejnika-maskownica-na-grzejnik-szklo-colorimo-oraz-lacobel-rev001-999x495.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/727834601-7-1000x700-oslona-grzejnika-maskownica-na-grzejnik-szklo-colorimo-oraz-lacobel-rev001-999x495-565x424.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Tutaj wstaw opis",
+                "active": false
+              },
+              {
+                "tags": "Colorimo",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/wizualizacja-4-b-1000x563.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/wizualizacja-4-b-1000x563-750x562.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Tutaj wstaw opis",
+                "active": false
+              },
+              {
+                "tags": "Colorimo",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/727834601-8-1000x700-oslona-grzejnika-maskownica-na-grzejnik-szklo-colorimo-oraz-lacobel-rev001-2-999x496.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/727834601-8-1000x700-oslona-grzejnika-maskownica-na-grzejnik-szklo-colorimo-oraz-lacobel-rev001-2-999x496-556x417.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Tutaj wstaw opis",
+                "active": true
+              },
+              {
+                "tags": "Colorimo",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/whitess-762x415.png",
+                "thumb": "@PROJECT_PATH@/assets/images/whitess-762x415-553x415.png",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Tutaj wstaw opis",
+                "active": false
+              },
+              {
+                "tags": "Lacobel, Graficzne",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/727834601-4-1000x700-oslona-grzejnika-maskownica-na-grzejnik-szklo-colorimo-oraz-lacobel-uslugi-i-firmy-rev001-1-614x461.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/727834601-4-1000x700-oslona-grzejnika-maskownica-na-grzejnik-szklo-colorimo-oraz-lacobel-uslugi-i-firmy-rev001-1-614x461-614x460.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Tutaj wstaw opis",
+                "active": false
+              },
+              {
+                "tags": "Graficzne, Lacobel",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/727834601-3-1000x700-oslona-grzejnika-maskownica-na-grzejnik-szklo-colorimo-oraz-lacobel-meble-na-wymiar-rev001-1-327x461.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/727834601-3-1000x700-oslona-grzejnika-maskownica-na-grzejnik-szklo-colorimo-oraz-lacobel-meble-na-wymiar-rev001-1-327x461-326x245.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Tutaj wstaw opis",
+                "active": false
+              },
+              {
+                "tags": "Lacobel",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/727834601-2-1000x700-oslona-grzejnika-maskownica-na-grzejnik-szklo-colorimo-oraz-lacobel-dodaj-zdjecia-rev001-2-347x461.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/727834601-2-1000x700-oslona-grzejnika-maskownica-na-grzejnik-szklo-colorimo-oraz-lacobel-dodaj-zdjecia-rev001-2-347x461-338x253.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Tutaj wstaw opis",
+                "active": false
+              }
+            ]
+          },
+          "_anchor": "gallery2-12"
         }
       ]
     }
