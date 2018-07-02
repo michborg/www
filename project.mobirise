@@ -358,7 +358,7 @@
                 "active": false
               },
               {
-                "tags": "Colorimo",
+                "tags": "Colorimo, Soft",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -368,7 +368,7 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "SZAMPAŃSKI 7M44 (SATI)",
-                "active": false
+                "active": true
               },
               {
                 "tags": "Colorimo, Sati",
@@ -433,7 +433,7 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "CZARNY 9005 (SOFT)",
-                "active": true
+                "active": false
               }
             ]
           },
